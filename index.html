@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La typographie</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +12,13 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -29,60 +33,59 @@
     <!-- Contenu -->
     <section class="slogan">
       <div class="wrapper">
-        <div class="slogan-texte">
-          <h2>
-            « L’écriture, la plus noble conquête de l’homme» - Elsa Triolet
-          </h2>
-        </div>
+        <h2>« L’écriture, la plus noble conquête de l’homme» - Elsa Triolet</h2>
       </div>
     </section>
 
     <section class="regles">
       <div class="wrapper">
-        <a href="#">
-          <article class="guillemets">
-            <div class="texte-gauche">
+        <div class="contenu">
+          <a href="#">
+            <article class="gauche-guillemets">
               <p>Quels guillemets choisir pour le Web ?</p>
               <p class="rond">«</p>
-            </div>
-          </article></a
-        >
+            </article></a
+          >
 
-        <a href="#">
-          <article class="insecable">
-            <div class="texte-droite">
+          <a href="#">
+            <article class="doite-ginsecable">
               <p>Qu’est-ce qu’un espace insécable ?</p>
               <p class="rond">&amp;nbsp</p>
-            </div>
-          </article></a
-        >
+            </article></a
+          >
 
-        <a href="#">
-          <article class="windows">
-            <div class="texte-gauche">
+          <a href="#">
+            <article class="gauche-windows">
               <p>S’occuper de la veuve et de l’orphelin.</p>
               <p class="rond">Windows</p>
-            </div>
-          </article></a
-        >
+            </article></a
+          >
 
-        <a href="#"
-          ><article class="windows">
-            <div class="texte-droite">
+          <a href="#"
+            ><article class="droite-hauteur">
               <p>Et la hauteur de ligne dans tout ça ?</p>
               <p class="rond">line-height</p>
-            </div>
-          </article></a
-        >
+            </article></a
+          >
+        </div>
       </div>
     </section>
 
     <section class="info">
       <div class="wrapper">
         <div class="paragraphes">
-          <article class="paragraphe01"></article>
+          <article class="paragraphe01">
+            Lors du choix des polices de caractères, un concepteur Web se tourne
+            vers celles conçues pour une bonne lecture à l’écran et qui se
+            retrouvent sur la majorité des plateformes. On recommande ainsi une
+            police sans sérif (sans petites pattes) qui facilite la lecture à
+            l’écran. Pour le choix des polices, Google Font s’avère une
+            ressource très utilisée qui permet de trouver facilement une police
+            qui conviendra à tous les écrans.
+          </article>
 
-          <article class=""></article>
+          <article class="paragraphe02"> <strong>Test à faire en dernier :</strong>
+Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième article. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).</article>
         </div>
       </div>
     </section>

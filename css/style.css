@@ -28,24 +28,30 @@ h1 {
   font:
     900 6rem "Roboto",
     sans-serif;
+  letter-spacing: 30%;
+
   color: white;
-  letter-spacing: 36%;
+
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
   font:
-    100 3rem/60% "Lato",
+    100 3rem "Lato",
     sans-serif;
-  color: black;
   letter-spacing: 5.5%;
+
+  color: black;
 }
 
 p {
   font:
-    2.25rem/60% "Quicksand",
+    400 2.25rem "Quicksand",
     sans-serif;
-  color: black;
   font-optical-sizing: auto;
+
+  color: black;
 }
 
 /* ------------------------------------------COMPONENTS------------------------------------------ */
@@ -64,26 +70,49 @@ p {
 /* SLOGAN */
 
 /* SECTION 01 */
+.rond {
+  font:
+    700 1.875rem "Quicksand",
+    sans-serif;
+  letter-spacing: 5%;
+  color: #d35400;
+
+  border: 5px solid #d35400;
+  background-color: white;
+  width: 210px;
+  height: 210px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gauche {
+  float: left;
+}
+
+.droite {
+  float: right;
+}
 
 /* SECTION 02 */
 
 /* FOOTER */
 
 .footer {
+  background-color: #2980b9;
+  padding-top: 20px;
+  padding-top: 20px;
+}
+
+.footer .wrapper {
   display: flex;
   justify-content: space-between;
   align-content: center;
-
-  background-color: #2980b9;
-
-  text-align: center;
-
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .footer p {
-  color: white;
+  color: black;
 
   margin: 0px;
 }
