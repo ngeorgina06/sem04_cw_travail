@@ -137,12 +137,9 @@ p {
 .paragraphes article {
   font-family: "Roboto", sans-serif;
   color: black;
+
   line-height: 35px;
-  max-width: fit-content;
-  max-height: fit-content;
 }
-
-
 
 /* FOOTER */
 
@@ -154,6 +151,7 @@ p {
 
 .footer .wrapper {
   display: flex;
+  
   justify-content: space-between;
   align-content: center;
 }
@@ -162,4 +160,20 @@ p {
   color: black;
 
   margin: 0px;
+}
+
+#icone-bas {
+  font-size: 1.25rem;
+  color: #ff93cd;
+
+  border: 3px solid #BDC3C7;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+  margin: 0px 50px 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
