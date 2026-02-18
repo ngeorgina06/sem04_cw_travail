@@ -107,23 +107,42 @@ p {
   max-height: fit-content;
 }
 
-.droite{
+.droite {
   justify-self: right;
 }
 
-#droite{
+#droite {
   margin-left: 110px;
 }
 
-.gauche{
+.gauche {
   justify-self: left;
 }
 
-#gauche{
+#gauche {
   margin-right: 80px;
 }
 
 /* SECTION 02 */
+.paragraphes {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+
+  justify-items: center;
+  vertical-align: top;
+  margin: 0px 50px 50px 50px
+}
+
+.paragraphes article {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  line-height: 35px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+
 
 /* FOOTER */
 
