@@ -28,12 +28,13 @@ h1 {
   font:
     900 6rem "Roboto",
     sans-serif;
-  letter-spacing: 30%;
+  letter-spacing: 30px;
 
   color: white;
 
   text-align: center;
   margin: 0;
+  padding: 40px 0px;
 }
 
 h2 {
@@ -43,6 +44,8 @@ h2 {
   letter-spacing: 5.5%;
 
   color: black;
+
+  text-align: right;
 }
 
 p {
@@ -67,14 +70,25 @@ p {
   background-color: #34495e;
 }
 
-/* SLOGAN */
-
 /* SECTION 01 */
+
+.regles article {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 2fr;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.regles a:hover {
+  background-color: #001d30;
+}
+
 .rond {
   font:
     700 1.875rem "Quicksand",
     sans-serif;
-  letter-spacing: 5%;
   color: #d35400;
 
   border: 5px solid #d35400;
@@ -82,6 +96,7 @@ p {
   width: 210px;
   height: 210px;
   border-radius: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
